@@ -1,0 +1,6 @@
+[Unit]
+Description=Ledger program ran by timer, runs with -r to record
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/ht_ledger -r
