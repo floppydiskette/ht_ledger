@@ -1,0 +1,18 @@
+[package]
+name = "ht_ledger"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+ht_timeparser = { path = "../ht_timeparser" }
+ht_cal = { path = "../ht_cal" }
+serde_json = "1.0"
+rce = "0.0.3"
+lazy_static = "1.4.0"
+chrono = "0.4.23"
+rmp-serde = "1.1.1"
+rand = "0.8.5"
